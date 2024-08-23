@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+  <!-- Container -->
+  <div class="min-h-screen flex flex-col items-center justify-center bg-blue-100 p-6">
+    <!-- Header -->
+    <header class="text-left w-full max-w-5xl mx-auto mb-8">
+      <h1 class="text-5xl font-bold text-gray-700">Contact<span class="text-black"> Me</span></h1>
+    </header>
+    <div class="bg-gray-800 text-white rounded-lg w-full max-w-5xl mx-auto p-8 shadow-lg">
+      <!-- Profile Section -->
+      <div class="flex flex-col md:flex-row items-center md:items-start justify-between mb-6">
+        <div>
+          <h2 class="text-3xl font-bold mb-2">Hello, I'm Maesto Rafa,</h2>
+          <h3 class="text-5xl font-bold text-blue-400">Student Of EEPIS</h3>
+          <a href="#" class="text-blue-300 underline mt-2 inline-block">Contact Me</a>
+        </div>
+        <div class="mt-4 md:mt-0">
+          <img src="../../Downloads/hq720.jpg" alt=""
+            class="w-[100px] h-[100px] rounded-full">
+        </div>
+      </div>
+      <!-- Contact Me Section -->
+      <section class="bg-gray-800 text-white rounded-lg w-full max-w-5xl mx-auto p-8 shadow-lg mt-8">
+        <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+        <form action="https://formspree.io/f/mqazglyq" method="POST" class="space-y-6">
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-200">Name</label>
+            <input type="text" id="name" name="name" required
+              class="w-full p-3 mt-1 bg-gray-700 text-white rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-200">Email</label>
+            <input type="email" id="email" name="email" required
+              class="w-full p-3 mt-1 bg-gray-700 text-white rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-medium text-gray-200">Message</label>
+            <textarea id="message" name="message" rows="5" required
+              class="w-full p-3 mt-1 bg-gray-700 text-white rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
+          </div>
+          <button type="submit"
+            class="w-full bg-blue-500 hover:bg-blue-600 p-3 rounded-lg text-white font-semibold">Send Message</button>
+        </form>
+      </section>
+      <!-- Social Media Links Section -->
+      <section class="bg-gray-800 text-white rounded-lg w-full max-w-5xl mx-auto p-8 shadow-lg mt-8">
+        <h3 class="text-3xl font-bold mb-6">Connect with Me</h3>
+        <div class="flex justify-center space-x-6">
+          <a href="https://github.com/maestrorafa05" target="_blank">Github</a>
+          <a href="https://instagram.com/maestrorafa05" target="_blank">Instagram</a>
+        </div>
+      </section>
+      <!-- Back to Home Button -->
+      <div class="mt-8 text-center">
+        <a href="index.html" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg">Back to Home</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
